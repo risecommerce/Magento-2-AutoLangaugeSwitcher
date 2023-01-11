@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Risecommerce (support@risecommerce.com). All rights reserved.
+ * 
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="content">
+            <block class="Risecommerce\AutoLanguageSwitcher\Block\SuggestedStore" name="mfals.suggested.store" template="Risecommerce_AutoLanguageSwitcher::suggested-store.phtml"/>
+        </referenceBlock>
+    </body>
+</page>
